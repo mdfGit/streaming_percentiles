@@ -38,5 +38,4 @@ def isValidRecord(otherId):
 
 def getPercentileInput():
     f = open('./input/percentile.txt', 'r')
-    print f.readline()
     return f.readline()

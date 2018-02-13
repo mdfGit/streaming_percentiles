@@ -51,7 +51,7 @@ class Recipient:
 
         index_value = get_value_at_index(current_calculations.contributions_root_node, index)
 
-        returnList = [recipient, zip, year, index_value,str(total_repeat_contributions),str(total_repeat_contributions_count)]
+        returnList = [recipient, zip, year, str(index_value),str(total_repeat_contributions),str(total_repeat_contributions_count)]
 
         returnDelimited = "|".join(returnList)
 
